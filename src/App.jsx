@@ -16,10 +16,10 @@ function App() {
       <div>
         
         {things.map(thing => (
-          <div key={thing.id}>
-            <h1>{thing.title}</h1>
-            <p>{thing.description}</p>
-            <h4>{thing.level}</h4>
+          <div key={thing.id} id={thing.id}>
+            <h1 className = {thing.titleClass}>{thing.title}</h1>
+            <p className = {thing.descriptionClass}>{thing.description}</p>
+            <h4 className = "LC">{thing.level}</h4>
           </div>
         ))}
          
