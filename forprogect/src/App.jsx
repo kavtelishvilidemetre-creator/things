@@ -1,11 +1,10 @@
 import {useState ,useEffect} from 'react'
-import data from './assets/app.json'
 import './App.css'
 
 function App() {
   const [things, setthings] = useState([])
-  const url = 'https://raw.githubusercontent.com/kavtelishvilidemetre-creator/forprogectresposity/refs/heads/main/forprogect/src/assets/app.json?token=GHSAT0AAAAAADTVGFD5RB4BZEUIIBVIL6TG2M5VA3Q'
-   useEffect(() => {
+  const url = 'https://raw.githubusercontent.com/kavtelishvilidemetre-creator/things/main/forprogect/src/assets/app.json'
+  useEffect(() => {
     fetch(url)
       .then((res) => res.json())
       .then((data) => setthings(data))
