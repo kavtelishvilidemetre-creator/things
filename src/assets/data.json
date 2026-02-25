@@ -3,12 +3,19 @@
     "id": "forreact",
     "title": "React",
     "description": "JavaScript library for building UI",
-    "level": "Intermediate"
+    "level": "Intermediate",
+    "levelClass":"LC",
+    "titleClass":"reacttitle",
+    "descriptionClass":"reactdescription"
+
   },
   {
     "id": "forjavascript",
     "title": "JavaScript",
     "description": "Programming language of the web",
-    "level": "Beginner"
+    "descriptionClass":"javadescription",
+    "level": "Beginner",
+    "titleClass":"javatitle",
+    "levelClass":"LC"
   }
 ]
