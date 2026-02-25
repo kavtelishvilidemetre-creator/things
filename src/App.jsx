@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   const [things, setthings] = useState([])
-  const url = 'https://raw.githubusercontent.com/kavtelishvilidemetre-creator/things/main/forprogect/src/assets/app.json'
+  const url = 'https://raw.githubusercontent.com/kavtelishvilidemetre-creator/things/refs/heads/main/forprogect/src/assets/data.json'
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())
