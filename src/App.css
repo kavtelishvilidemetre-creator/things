@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-.LC{
-    color: red;
+#forreact{
+    .LC{
+        color: red;
+    }
+    
+}
+#forjavascript{
+    .LC{
+        color: blue;
+    }
 }

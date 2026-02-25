@@ -19,7 +19,7 @@ function App() {
           <div key={thing.id} id={thing.id}>
             <h1 className = {thing.titleClass}>{thing.title}</h1>
             <p className = {thing.descriptionClass}>{thing.description}</p>
-            <h4 className = "LC">{thing.level}</h4>
+            <h4 className = {thing.levelClass}>{thing.level}</h4>
           </div>
         ))}
          
